@@ -1,3 +1,7 @@
+body{
+  background-color: #F3EEEA;
+}
+
 #navbar{
     background-color : #F3EEEA;
     position: fixed;
@@ -55,7 +59,11 @@ footer{
 /* CSS adjustments for smaller screens */
 @media (max-width: 500px) {
   .main {
-      margin-top : 300px;
+      margin-top : 600px;
+  }
+
+  body{
+    padding-bottom : 500px;
   }
   /* Add more specific adjustments as needed */
 }
