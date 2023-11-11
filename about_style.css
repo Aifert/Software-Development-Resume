@@ -71,13 +71,10 @@ footer{
   /* Add more specific adjustments as needed */
 }
 
-<<<<<<< HEAD
-=======
 
 @media (max-width : 400px){
   .main{
-    margin-top : 900px;
+    margin-top : 500px;
     margin-bottom : 100px;
   }
 }
->>>>>>> 6d8d1bd279d2b449be8d9c19aa1706c7cc72efc4
