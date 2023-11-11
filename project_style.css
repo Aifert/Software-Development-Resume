@@ -122,3 +122,13 @@ li>li{
       margin-bottom : 50px;
     }
   }
+
+  @media (max-width : 850px){
+    .cardgrid {
+        display: grid;
+        grid-template-columns : 1fr;
+        grid-template-rows: repeat(auto-fill, minmax(18rem, 1fr)); /* Adjust column size as needed */
+        gap: 50px;
+        place-items:center;
+    }
+  }
