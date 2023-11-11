@@ -59,19 +59,14 @@ footer{
 
 @media (min-width : 600px){
   .main{
-    margin-top : 400px;
-  }
-  body{
-    padding-bottom : 500px;
+    margin-top : 200px;
+    margin-bottom : 100px;
   }
 }
 @media (max-width: 600px) {
   .main {
       margin-top : 600px;
-  }
-
-  body{
-    padding-bottom : 500px;
+      margin-bottom : 100px;
   }
   /* Add more specific adjustments as needed */
 }
