@@ -69,3 +69,10 @@ body{
 .guide > li > a{
   text-decoration : none;
 }
+
+
+@media (max-width : 390px){
+  .main{
+    scale : 70%;
+  }
+}
