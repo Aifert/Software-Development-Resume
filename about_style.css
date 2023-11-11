@@ -7,7 +7,6 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; 
 }
 
 #content{
@@ -57,14 +56,28 @@ footer{
 }
 
 /* CSS adjustments for smaller screens */
-@media (max-width: 500px) {
+
+@media (min-width : 600px){
+  .main{
+    margin-top : 200px;
+    margin-bottom : 100px;
+  }
+}
+@media (max-width: 600px) {
   .main {
       margin-top : 600px;
-  }
-
-  body{
-    padding-bottom : 500px;
+      margin-bottom : 100px;
   }
   /* Add more specific adjustments as needed */
 }
 
+<<<<<<< HEAD
+=======
+
+@media (max-width : 400px){
+  .main{
+    margin-top : 900px;
+    margin-bottom : 100px;
+  }
+}
+>>>>>>> 6d8d1bd279d2b449be8d9c19aa1706c7cc72efc4
