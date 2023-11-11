@@ -5,9 +5,15 @@ body{
     background-color : #F3EEEA;
 }
 
+@font-face{
+  font-family : 'CustomFont';
+  src : url('./Retro\ Gaming.ttf') format('truetype');
+}
+
 .custom-container *{
   color : #776B5D;
-  font-family: 'Zilla Slab', serif;
+  font-family : 'CustomFont', sans-serif;
+                                                
 }
 
 
