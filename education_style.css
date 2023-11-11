@@ -76,29 +76,29 @@ li>li{
 }
 
 
-@media (min-width : 600px){
-    .main{
-      margin-top : 100px;
-    }
-    body{
-      padding-bottom : 200px;
-    }
+/* CSS adjustments for smaller screens */
+
+/* Desktop */
+
+@media (min-width : 1440px){
+  .main{
+    margin-top : 150px;
   }
-  @media (max-width: 600px) {
-    .main {
-        margin-top : 600px;
-    }
-  
-    body{
-      padding-bottom : 200px;
-    }
-    /* Add more specific adjustments as needed */
+}
+
+/* Macbook */
+@media (max-width: 1440px) and (min-width : 390px) {
+  .main {
+      margin-top : 400px;
+      margin-bottom : 100px;
   }
-  
-  
-  @media (max-width : 400px){
-    .main{
-      margin-top : 500px;
-      margin-bottom : 50px;
-    }
+}
+
+/* Phone */
+
+@media (max-width : 390px){
+  .main{
+    margin-top : 700px;
+    margin-bottom : 100px;
   }
+}

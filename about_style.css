@@ -21,9 +21,6 @@ body{
   src : url('./Retro\ Gaming.ttf') format('truetype');
 }
 
-
-
-
 .about-container *{
   color : #776B5D;
   font-family : 'CustomFont', sans-serif;
@@ -37,7 +34,6 @@ body{
 
 .main{
   background-color : #EBE3D5;
-  margin-top : 120px;
 }
 
 
@@ -64,24 +60,27 @@ footer{
 
 /* CSS adjustments for smaller screens */
 
-@media (min-width : 600px){
+/* Desktop */
+
+@media (min-width : 1440px){
   .main{
-    margin-top : 200px;
-    margin-bottom : 100px;
+    margin-top : 0px;
   }
 }
-@media (max-width: 600px) {
+
+/* Macbook */
+@media (max-width: 1440px) and (min-width : 390px) {
   .main {
-      margin-top : 600px;
+      margin-top : 300px;
       margin-bottom : 100px;
   }
-  /* Add more specific adjustments as needed */
 }
 
+/* Phone */
 
-@media (max-width : 400px){
+@media (max-width : 390px){
   .main{
-    margin-top : 500px;
+    margin-top : 600px;
     margin-bottom : 100px;
   }
 }

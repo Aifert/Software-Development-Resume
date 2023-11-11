@@ -107,30 +107,32 @@ li>li{
     justify-content: center;
 }
 
+/* CSS adjustments for smaller screens */
 
-@media (min-width : 600px){
+/* Desktop */
+
+@media (min-width : 1440px){
     .main{
-      margin-top : 700px;
-      margin-bottom : 100px;
+      margin-top : 800px;
     }
   }
-  @media (max-width: 600px) {
+  
+  /* Macbook */
+  @media (max-width: 1440px) and (min-width : 390px) {
     .main {
-        margin-top : 1000px;
+        margin-top : 800px;
         margin-bottom : 100px;
     }
-    /* Add more specific adjustments as needed */
   }
   
+  /* Phone */
   
-  @media (max-width : 400px){
+  @media (max-width : 390px){
     .main{
-      margin-top : 1400px;
-      margin-bottom : 50px;
+      margin-top : 1800px;
+      margin-bottom : 100px;
     }
-  }
 
-  @media (max-width : 850px){
     .cardgrid {
         display: grid;
         grid-template-columns : 1fr;
@@ -140,6 +142,7 @@ li>li{
     }
 
     .card{
-        width : 15rem;
+        width : 18rem;
     }
   }
+  

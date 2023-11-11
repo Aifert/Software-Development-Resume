@@ -1,3 +1,7 @@
+body {
+  background-color : #F3EEEA;
+}
+
 #navbar{
   background-color : #F3EEEA;
 }
@@ -28,7 +32,6 @@ max-width : 800px;
 
 .main{
   background-color : #EBE3D5;
-  margin-top : -250px;
 }
 
 
@@ -79,11 +82,37 @@ footer{
   height : 150px;
 }
 
+/* CSS adjustments for smaller screens */
 
-@media (max-width : 420px){
+/* Desktop */
+
+@media (min-width : 1440px){
+  .main{
+    margin-top : -250px;
+  }
+}
+
+/* Macbook */
+@media (max-width: 1440px) and (min-width : 390px) {
+  .main {
+      margin-top : -100px;
+      margin-bottom : 100px;
+  }
+}
+
+/* Phone */
+
+@media (max-width : 390px){
+  .main{
+    margin-top : 10px;
+    margin-bottom : 100px;
+  }
+  
+
   .grid-container{
     display : grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows : 1fr ;
+    grid-template-columns: 1fr;
+    grid-template-rows : 1fr;
   }
+
 }
