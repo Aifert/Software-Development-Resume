@@ -86,14 +86,14 @@ footer{
 
 /* Desktop */
 
-@media (min-width : 1440px){
+@media (min-width : 1600px){
   .main{
     margin-top : -250px;
   }
 }
 
 /* Macbook */
-@media (max-width: 1440px) and (min-width : 430px) {
+@media (max-width: 1600px) and (min-width : 430px) {
   .main {
       scale : 80%;
       margin-top : -100px;

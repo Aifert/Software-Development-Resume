@@ -70,7 +70,7 @@ body{
   text-decoration : none;
 }
 
-@media (max-width: 1440px) and (min-width : 430px) {
+@media (max-width: 1600px) and (min-width : 430px) {
   .main {
       scale : 80%;
       margin-top :100px;
