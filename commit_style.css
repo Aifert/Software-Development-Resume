@@ -89,7 +89,8 @@ li>li{
 /* Macbook */
 @media (max-width: 1440px) and (min-width : 390px) {
   .main {
-      margin-top : 250px;
+      scale : 80%;
+      margin-top : 150px;
       margin-bottom : 100px;
   }
 }
@@ -98,7 +99,8 @@ li>li{
 
 @media (max-width : 390px){
   .main{
-    margin-top : 800px;
+    scale : 70%;
+    margin-top : 400px;
     margin-bottom : 100px;
   }
 }

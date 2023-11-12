@@ -118,7 +118,7 @@ li>li{
   }
   
   /* Macbook */
-  @media (max-width: 1440px) and (min-width : 390px) {
+  @media (max-width: 1440px) and (min-width : 430px) {
     .main {
         margin-top : 800px;
         margin-bottom : 100px;
@@ -127,9 +127,10 @@ li>li{
   
   /* Phone */
   
-  @media (max-width : 390px){
+  @media (max-width : 430px){
     .main{
-      margin-top : 1800px;
+      scale : 70%;
+      margin-top : 1000px;
       margin-bottom : 100px;
     }
 
